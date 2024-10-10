@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style-type: none;
+}
+/*table Section*/
+.table_section {
+  width: 100%;
+}
+table,
+td {
+  padding: 10px;
+}
+table,
+thead,
+tbody,
+td,
+th,
+tr {
+  border: 2px solid #fff !important;
+  /* border-collapse: collapse; */
+}
+
+/* Form in model*/
+.label_sec {
+  position: static;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 20px;
+  text-align: left !important;
+  display: block;
+}
+
+.model_bg {
+  background-image: url("../asset/green.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.add-image>input[type=file]{
+    width: 100%;
+    height: 50px;
+}
+.adduser{
+    background-image: url("../asset/add.jpg") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#add_btn{
+    display: flex;
+    margin: 10px 0px;
+}

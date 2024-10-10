@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.form_section{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 400px;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    }
+    form {
+        padding-top: 50px;
+        padding-right: 40px;
+    
+    }
+    .l_input{
+    display: flex;
+    position: relative;
+    }
+    form input{
+        width:250px;
+        height: 50px;
+    }
+    input {
+        width: 240px;
+        height: 50px;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        position: relative;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        /* margin: 15px; */
+        outline: none;
+        border: 2px solid #fff;
+        margin: 10%;
+        padding: 10px;
+      }
+      label {
+        position: absolute;
+        left: 50px;
+        top: 17px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        transition: 0.15s;
+      }
+      input:focus {
+        border: 2px solid #fff;
+      }
+      input:focus ~ label,
+      input:valid ~ label {
+        z-index: 999;
+        top: -7px;
+        font-size: 14px;
+        color: #000;
+        background:#fff;
+        backdrop-filter: blur(5px);
+        padding: 0px 5px;
+        border-radius: 3px;
+      }
+      .heading{
+        font-size: 40px;
+        text-decoration: underline;
+        font-weight: 700;
+      }
+      .btn_login{
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: green;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .btn_login:hover{
+        background-color: #fff;
+        border: 2px solid #fff;
+        color: blue;
+      }
